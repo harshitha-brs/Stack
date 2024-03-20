@@ -1,0 +1,91 @@
+<!--
+     Author: Build Rise Shine with Nyros (BRS) 
+     Created: 2023
+     Library / Component: Stack
+     Description: Main page  for the app
+     (c) Copyright by BRS with Nyros. 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Stack | Data Structure in JS</title>
+    <link rel="icon" href="assets/img/log.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="d-flex bg-gradient">
+        <div class="d-flex flex-grow-1">
+          <nav class="courseTitle">
+            <button class="navbar-brand border-0">
+              <img src="assets/img/log.png" alt="logo" />
+            </button>
+          </nav>
+          <div class="flex-grow-1">
+            <div class="ReactTitle ps-3 d-flex align-items-center">
+              <img src="assets/img/datastructure.png" alt="logo" />
+              <h3 class="mb-0">Data Structure - Stack in JS</h3>
+            </div>
+            <div class="d-flex ps-3 align-items-center">
+              <div class="flex-grow-1">
+                <h4>Stack</h4>
+                <p class="pb-0 mb-0 text-start">Purpose: Implement Stack DS</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main role="main" class="container" style="margin-bottom: 100px">
+      <h5 class="text-start">Implementation of Stack Data Structure</h5>
+      <p class="text-start">
+        The Stack class represents a custom implementation of a stack data
+        structure in JavaScript. It provides methods to perform basic stack
+        operations, such as adding elements to the top of the stack (push) and
+        removing elements from the top of the stack (pop).
+      </p>
+      <p class="text-start">
+        The stack is a linear data structure that follows the Last-In-First-Out
+        (LIFO) principle, meaning the last element added to the stack will be
+        the first one to be removed. The example demonstrates how to create an
+        instance of the Stack class and perform push and pop operations on it.
+      </p>
+    </main>
+
+    <footer class="footer footer-dark">
+      <div class="d-flex justify-content-between px-5">
+        <div>ALL RIGHTS RESERVED BRS STUDIO, INDIA</div>
+        <div>
+          <button
+            onclick="setTheme('rgb(17, 63, 189)')"
+            class="theme-switch theme-switch-chathams_blue"
+          ></button>
+          <button
+            onclick="setTheme('rgb(118, 21, 156)')"
+            class="theme-switch theme-switch-tamarillo"
+          ></button>
+          <button
+            onclick="setTheme('rgb(59, 177, 185)')"
+            class="theme-switch theme-switch-yellow_sea"
+          ></button>
+        </div>
+        <div>
+          <img src="assets/img/foot.png" alt="logo" />
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/stack.js" defer></script>
+    <script src="assets/js/theme.js" defer></script>
+  </body>
+</html>
